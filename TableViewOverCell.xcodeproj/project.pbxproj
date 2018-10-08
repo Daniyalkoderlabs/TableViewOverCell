@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E055E2B214FDB98006CFB99 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E055E2A214FDB98006CFB99 /* SecondViewController.m */; };
+		3D50F8B79F7E824CCDBB713A /* libPods-TableViewOverCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 706E1C6320FE17DE00113E79 /* libPods-TableViewOverCell.a */; };
 		70CE8E0620FC88C200349EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E0520FC88C200349EEE /* AppDelegate.m */; };
 		70CE8E0920FC88C200349EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E0820FC88C200349EEE /* ViewController.m */; };
 		70CE8E0C20FC88C200349EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CE8E0A20FC88C200349EEE /* Main.storyboard */; };
 		70CE8E0E20FC88C700349EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CE8E0D20FC88C700349EEE /* Assets.xcassets */; };
 		70CE8E1120FC88C700349EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CE8E0F20FC88C700349EEE /* LaunchScreen.storyboard */; };
 		70CE8E1420FC88C700349EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E1320FC88C700349EEE /* main.m */; };
+		70CE8E2520FCCBF900349EEE /* MentionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E2320FCCBF900349EEE /* MentionTableViewCell.m */; };
+		70CE8E2620FCCBF900349EEE /* MentionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CE8E2420FCCBF900349EEE /* MentionTableViewCell.xib */; };
+		70CE8E2920FCD57100349EEE /* MentionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E2720FCD57000349EEE /* MentionsManager.m */; };
+		70CE8E2C20FCD65C00349EEE /* MentionEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE8E2B20FCD65C00349EEE /* MentionEntity.m */; };
+		70D808FB20FF2D60004052F0 /* NSString+Matcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D808FA20FF2D60004052F0 /* NSString+Matcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111FE8498DC2F99DEB27294E /* Pods-TableViewOverCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewOverCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewOverCell/Pods-TableViewOverCell.debug.xcconfig"; sourceTree = "<group>"; };
+		27991E1A7DB7BB9F16A373E7 /* libPods-TableViewOverCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewOverCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E055E29214FDB98006CFB99 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2E055E2A214FDB98006CFB99 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		42C22DD486F1011355DA7A12 /* Pods-TableViewOverCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewOverCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewOverCell/Pods-TableViewOverCell.release.xcconfig"; sourceTree = "<group>"; };
+		706E1C6120FE17CA00113E79 /* libHakawai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHakawai.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		706E1C6320FE17DE00113E79 /* libPods-TableViewOverCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-TableViewOverCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE8E0120FC88C200349EEE /* TableViewOverCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewOverCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE8E0420FC88C200349EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70CE8E0520FC88C200349EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,15 @@
 		70CE8E1020FC88C700349EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70CE8E1220FC88C700349EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70CE8E1320FC88C700349EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CE8E2220FCCBF900349EEE /* MentionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MentionTableViewCell.h; sourceTree = "<group>"; };
+		70CE8E2320FCCBF900349EEE /* MentionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentionTableViewCell.m; sourceTree = "<group>"; };
+		70CE8E2420FCCBF900349EEE /* MentionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentionTableViewCell.xib; sourceTree = "<group>"; };
+		70CE8E2720FCD57000349EEE /* MentionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentionsManager.m; sourceTree = "<group>"; };
+		70CE8E2820FCD57100349EEE /* MentionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentionsManager.h; sourceTree = "<group>"; };
+		70CE8E2A20FCD65C00349EEE /* MentionEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentionEntity.h; sourceTree = "<group>"; };
+		70CE8E2B20FCD65C00349EEE /* MentionEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentionEntity.m; sourceTree = "<group>"; };
+		70D808F920FF2D60004052F0 /* NSString+Matcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Matcher.h"; sourceTree = "<group>"; };
+		70D808FA20FF2D60004052F0 /* NSString+Matcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Matcher.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D50F8B79F7E824CCDBB713A /* libPods-TableViewOverCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7D19CE213CC00B517B5EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706E1C6320FE17DE00113E79 /* libPods-TableViewOverCell.a */,
+				706E1C6120FE17CA00113E79 /* libHakawai.a */,
+				27991E1A7DB7BB9F16A373E7 /* libPods-TableViewOverCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		70CE8DF820FC88C200349EEE = {
 			isa = PBXGroup;
 			children = (
 				70CE8E0320FC88C200349EEE /* TableViewOverCell */,
 				70CE8E0220FC88C200349EEE /* Products */,
+				AD93D16DFE3D47A2BB6E6A6F /* Pods */,
+				1F7D19CE213CC00B517B5EEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +94,37 @@
 		70CE8E0320FC88C200349EEE /* TableViewOverCell */ = {
 			isa = PBXGroup;
 			children = (
+				70D808F920FF2D60004052F0 /* NSString+Matcher.h */,
+				70D808FA20FF2D60004052F0 /* NSString+Matcher.m */,
+				70CE8E2A20FCD65C00349EEE /* MentionEntity.h */,
+				70CE8E2B20FCD65C00349EEE /* MentionEntity.m */,
+				70CE8E2820FCD57100349EEE /* MentionsManager.h */,
+				70CE8E2720FCD57000349EEE /* MentionsManager.m */,
 				70CE8E0420FC88C200349EEE /* AppDelegate.h */,
 				70CE8E0520FC88C200349EEE /* AppDelegate.m */,
 				70CE8E0720FC88C200349EEE /* ViewController.h */,
 				70CE8E0820FC88C200349EEE /* ViewController.m */,
 				70CE8E0A20FC88C200349EEE /* Main.storyboard */,
+				2E055E29214FDB98006CFB99 /* SecondViewController.h */,
+				2E055E2A214FDB98006CFB99 /* SecondViewController.m */,
 				70CE8E0D20FC88C700349EEE /* Assets.xcassets */,
 				70CE8E0F20FC88C700349EEE /* LaunchScreen.storyboard */,
 				70CE8E1220FC88C700349EEE /* Info.plist */,
 				70CE8E1320FC88C700349EEE /* main.m */,
+				70CE8E2220FCCBF900349EEE /* MentionTableViewCell.h */,
+				70CE8E2320FCCBF900349EEE /* MentionTableViewCell.m */,
+				70CE8E2420FCCBF900349EEE /* MentionTableViewCell.xib */,
 			);
 			path = TableViewOverCell;
+			sourceTree = "<group>";
+		};
+		AD93D16DFE3D47A2BB6E6A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111FE8498DC2F99DEB27294E /* Pods-TableViewOverCell.debug.xcconfig */,
+				42C22DD486F1011355DA7A12 /* Pods-TableViewOverCell.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70CE8E1720FC88C700349EEE /* Build configuration list for PBXNativeTarget "TableViewOverCell" */;
 			buildPhases = (
+				BA3DBF78DD6320FA788D679B /* [CP] Check Pods Manifest.lock */,
 				70CE8DFD20FC88C200349EEE /* Sources */,
 				70CE8DFE20FC88C200349EEE /* Frameworks */,
 				70CE8DFF20FC88C200349EEE /* Resources */,
@@ -130,11 +187,33 @@
 			files = (
 				70CE8E1120FC88C700349EEE /* LaunchScreen.storyboard in Resources */,
 				70CE8E0E20FC88C700349EEE /* Assets.xcassets in Resources */,
+				70CE8E2620FCCBF900349EEE /* MentionTableViewCell.xib in Resources */,
 				70CE8E0C20FC88C200349EEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA3DBF78DD6320FA788D679B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewOverCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70CE8DFD20FC88C200349EEE /* Sources */ = {
@@ -142,8 +221,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CE8E0920FC88C200349EEE /* ViewController.m in Sources */,
+				70CE8E2C20FCD65C00349EEE /* MentionEntity.m in Sources */,
 				70CE8E1420FC88C700349EEE /* main.m in Sources */,
+				70CE8E2520FCCBF900349EEE /* MentionTableViewCell.m in Sources */,
+				2E055E2B214FDB98006CFB99 /* SecondViewController.m in Sources */,
+				70D808FB20FF2D60004052F0 /* NSString+Matcher.m in Sources */,
 				70CE8E0620FC88C200349EEE /* AppDelegate.m in Sources */,
+				70CE8E2920FCD57100349EEE /* MentionsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +365,20 @@
 		};
 		70CE8E1820FC88C700349EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111FE8498DC2F99DEB27294E /* Pods-TableViewOverCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G63A5N8Y3S;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TableViewOverCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/Hakawai\"";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = daniyalY.koderLabs.TableViewOverCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +387,20 @@
 		};
 		70CE8E1920FC88C700349EEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C22DD486F1011355DA7A12 /* Pods-TableViewOverCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G63A5N8Y3S;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TableViewOverCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/Hakawai\"";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = daniyalY.koderLabs.TableViewOverCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
